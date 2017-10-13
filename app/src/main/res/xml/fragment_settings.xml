@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="clear_cache"
+        android:title="@string/setting_clear_cache"></Preference>
+
+    <SwitchPreference
+        android:key="no_wifi"
+        android:title="@string/setting_no_wifi"></SwitchPreference>
+
+    <SwitchPreference
+        android:key="push"
+        android:title="@string/setting_push"></SwitchPreference>
+
+
+    <Preference
+        android:key="about"
+        android:title="@string/setting_about"></Preference>
+</PreferenceScreen>
